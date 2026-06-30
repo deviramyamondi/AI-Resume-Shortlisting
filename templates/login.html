@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="login-container">
+
+    <h2>Welcome Back 👋</h2>
+
+    <p class="sub-text">Login to continue</p>
+
+    <form method="POST">
+
+        <input type="email" name="email" placeholder="Enter Email" required>
+
+        <input type="password" name="password" placeholder="Enter Password" required>
+
+        <button type="submit">Login</button>
+
+    </form>
+
+    <!-- ERROR MESSAGE -->
+    {% if error %}
+    <p class="error-msg">{{ error }}</p>
+    {% endif %}
+
+    <!-- CREATE ACCOUNT LINK -->
+    <p class="bottom-text">
+        Don’t have an account?
+        <a href="/signup">Create Account</a>
+    </p>
+
+</div>
+
+</body>
+</html>

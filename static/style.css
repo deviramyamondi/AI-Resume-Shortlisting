@@ -1,0 +1,175 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(120deg, #e0f7fa, #e1bee7);
+    margin: 0;
+}
+
+/* LOGIN + SIGNUP BOX */
+.login-container {
+    width: 320px;
+    margin: 120px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    width: 95%;
+    padding: 10px;
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4b3bc8;
+}
+
+/* bottom link */
+.bottom-text {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.bottom-text a {
+    color: #6c5ce7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* DASHBOARD */
+.dashboard {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #00b894;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.sub-text {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.error-msg {
+    color: red;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.upload-container {
+    width: 450px;
+    margin: 80px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.upload-container h2 {
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.upload-box {
+    display: block;
+    padding: 15px;
+    border: 2px dashed #007bff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.upload-box input {
+    display: none;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+.upload-container {
+    width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.upload-container textarea {
+    width: 90%;
+    height: 120px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.upload-box {
+    display: block;
+    padding: 15px;
+    border: 2px dashed #007bff;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.upload-box input {
+    display: none;
+}
+
+button {
+    margin-top: 20px;
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
